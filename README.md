@@ -34,3 +34,23 @@ meteor add chrisdubya:bootstrap3-datetimepicker
   </div>
 ```
 * for more implementations see:  http://eonasdan.github.io/bootstrap-datetimepicker/
+
+### 2. With Angular Directive
+
+* Include the directive in your app
+
+```
+// app.js
+angular.module('moral-compass', ['datetimepicker'])
+```
+
+* Add input to HTML
+
+```
+<!-- index.html -->
+<input type="text" id="dt1" class="form-control input-sm"
+    datetimepicker
+    ng-model="vm.datetime"
+    placeholder="..."
+    name="time">
+```

@@ -1,7 +1,7 @@
 Package.describe({
     name: 'chrisdubya:bootstrap-datetimepicker',
     summary: "Bootstrap 3 DateTime Picker Wrapper for Meteor.'",
-    version: "1.1.0",
+    version: "1.1.2",
     git: "https://github.com/chrisdubya/meteor-bootstrap3-datetimepicker.git"
 });
 
@@ -22,7 +22,7 @@ Package.onUse(function (api) {
     }
     api.addFiles('dist/js/bootstrap.min.js', 'client');
     api.addFiles('dist/js/bootstrap-datetimepicker.js', 'client');
-    api.addFiles('dist/js/angular-bootstrap-datetimepicker-directive.min.js', 'client');
+    api.addFiles('dist/js/angular-bootstrap-datetimepicker-directive.js', 'client');
     api.addFiles([
       'dist/css/bootstrap.min.css',
       'dist/css/bootstrap-theme.min.css',
