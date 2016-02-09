@@ -13,5 +13,7 @@ Package.on_use(function (api, where) {
     api.add_files([
       'lib/css/bootstrap-datetimepicker.css', // Add Date Time Picker CSS and JS files
       'lib/js/bootstrap-datetimepicker.js',
-    ], 'client');
+    ], 'client', {
+        isImport: true
+    });
 });
