@@ -386,6 +386,7 @@
     "responsive-utilities.less",
     "glyphicons.less",
     "input-groups.less",
+    "list-group.less",
     "close.less",
     "component-animations.less"
   ],
@@ -393,5 +394,5 @@
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c29cf83e2ca01cb18315"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=134fdd0c907e973b12bf"
 }
