@@ -41,7 +41,7 @@ meteor add chrisdubya:bootstrap3-datetimepicker
 
 ```
 // app.js
-angular.module('moral-compass', ['datetimepicker'])
+angular.module('myApp', ['datetimepicker'])
 ```
 
 * Add input to HTML
