@@ -1,35 +1,44 @@
-bootstrap3-datetimepicker
-======================
+# A [Meteor](http://meteor.com) Bootstrap 3 DateTime picker from [Eonasdan](https://github.com/Eonasdan/bootstrap-datetimepicker)
 
-Bootstrap 3 DateTime picker from Eonasdan, https://github.com/Eonasdan/bootstrap-datetimepicker, packaged for Meteor.js
+## Installation
 
-To install
-----------
+### 1. Add the package
 
-```sh
-$ meteor add tsega:bootstrap3-datetimepicker
+```
+meteor add chrisdubya:meteor-bootstrap3-datetimepicker
 ```
 
-To use
-------
+### 2. In your main .scss file (in your app):
 
-Set up your markup, in the example below a grouped calendar icon with text input (bootstrap3)
+Import the css:
 
-```html
-<template name="tempName">
-...
-  <div class="input-group datetimepicker">
-    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-    <input class="set-due-date form-control" type="text"/>
+```
+@import '{tsega:bootstrap3-datetimepicker}/lib/css/bootstrap-datetimepicker.css';
+```
+
+## Usage
+
+### 1. Minimum Setup
+
+```
+  <div class="container">
+      <div class="row">
+          <div class='col-sm-6'>
+              <div class="form-group">
+                  <div class='input-group date' id='datetimepicker1'>
+                      <input type='text' class="form-control" />
+                      <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                  </div>
+              </div>
+          </div>
+          <script type="text/javascript">
+              $(function () {
+                  $('#datetimepicker1').datetimepicker();
+              });
+          </script>
+      </div>
   </div>
-...
-</template>
 ```
-
-Using jQuery initiate the control as datetime picker after the template has been rendered.
-
-```js
-Template.tempName.onRendered(function() {
-    this.$('.datetimepicker').datetimepicker();
-});
-```
+* for more implementations see:  http://eonasdan.github.io/bootstrap-datetimepicker/

@@ -5,7 +5,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-    api.versionsFrom('METEOR@0.9.0');
+    api.versionsFrom('1.2.1');
 
     api.use('jquery', 'client');
     api.use('momentjs:moment@2.8.4');
