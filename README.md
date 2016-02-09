@@ -8,14 +8,6 @@
 meteor add chrisdubya:bootstrap3-datetimepicker
 ```
 
-### 2. In your main .scss file (in your app):
-
-Import the css:
-
-```
-@import '{chrisdubya:bootstrap3-datetimepicker}/lib/css/bootstrap-datetimepicker.css';
-```
-
 ## Usage
 
 ### 1. Minimum Setup
