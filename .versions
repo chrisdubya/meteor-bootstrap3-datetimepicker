@@ -1,5 +1,5 @@
-chrisdubya:bootstrap-datetimepicker@1.1.3
+chrisdubya:bootstrap-datetimepicker@1.1.4
 jquery@1.11.4
 meteor@1.1.10
-momentjs:moment@2.8.4
+momentjs:moment@2.11.2
 underscore@1.0.4

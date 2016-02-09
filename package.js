@@ -1,13 +1,13 @@
 Package.describe({
     name: 'chrisdubya:bootstrap-datetimepicker',
     summary: "Bootstrap 3 DateTime Picker Wrapper for Meteor.'",
-    version: "1.1.3",
+    version: "1.1.4",
     git: "https://github.com/chrisdubya/meteor-bootstrap3-datetimepicker.git"
 });
 
 Package.onUse(function (api) {
     api.versionsFrom('1.2.1');
-    api.use(['jquery', 'momentjs:moment@2.8.4'], 'client');
+    api.use(['jquery', 'momentjs:moment@2.11.2'], 'client');
     var assets = [
       'dist/fonts/glyphicons-halflings-regular.eot',
       'dist/fonts/glyphicons-halflings-regular.svg',
