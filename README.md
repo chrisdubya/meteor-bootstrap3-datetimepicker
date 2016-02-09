@@ -5,7 +5,7 @@
 ### 1. Add the package
 
 ```
-meteor add chrisdubya:meteor-bootstrap3-datetimepicker
+meteor add chrisdubya:bootstrap3-datetimepicker
 ```
 
 ### 2. In your main .scss file (in your app):
@@ -13,7 +13,7 @@ meteor add chrisdubya:meteor-bootstrap3-datetimepicker
 Import the css:
 
 ```
-@import '{tsega:bootstrap3-datetimepicker}/lib/css/bootstrap-datetimepicker.css';
+@import '{chrisdubya:bootstrap3-datetimepicker}/lib/css/bootstrap-datetimepicker.css';
 ```
 
 ## Usage
